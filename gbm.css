@@ -1,0 +1,38 @@
+body{
+    background-color: #606060;
+    }
+    
+#canvas_white_fill {
+    position: absolute;
+    z-index: 5;
+    color: white; 
+    top: 310px; left:  115px;   
+}
+
+#canvas_black_fill{
+    position: relative;
+    top: 200px; left: 0px; 
+    border:1px solid #ccc; 
+    padding: 5px; background: #ffffff;
+    box-shadow: #111 5px 5px 10px; 
+}
+
+#controls{
+    top: 220px; left: 10px;
+    position: relative;
+}
+
+#fill_progress{
+    height: 10px;
+}
+
+.btn{
+    border: 1px solid #222;
+    padding: 5px;
+    box-shadow: #111 5px 5px 10px;
+}
+
+.btn:hover{
+    background-color: #25a0d8;
+    color: #ffffff;
+}
